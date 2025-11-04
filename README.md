@@ -12,5 +12,4 @@
 ## Протестированы классы
 - Bun
 - Ingredient
-- IngredientType
 - Burger
