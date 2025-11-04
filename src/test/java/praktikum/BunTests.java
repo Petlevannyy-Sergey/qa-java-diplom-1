@@ -16,11 +16,27 @@ public class BunTests {
 
     @Test
     public void getNameIsCorrect() {
-        assertEquals("getName возвращает некорректное значение", "Булочка", bun.getName());
+        // Arrange
+        String message = "getName возвращает некорректное значение";
+        String expected = "Булочка";
+
+        // Act
+        String actual = bun.getName();
+
+        // Assert
+        assertEquals(message, expected, actual);
     }
 
     @Test
     public void getPriceIsCorrect() {
-        Assert.assertEquals("getPrice возвращает некорректное значение", 100.5f, bun.getPrice(), 0);
+        // Arrange
+        String message = "getPrice возвращает некорректное значение";
+        float expected = 100.5f;
+
+        // Act
+        float actual = bun.getPrice();
+
+        // Assert
+        Assert.assertEquals(message, expected, actual, 0);
     }
 }
