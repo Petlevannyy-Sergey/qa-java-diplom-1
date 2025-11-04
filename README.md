@@ -10,7 +10,7 @@
 - Mockito 5.20.0
 
 ## Протестированы классы
-Bun
-Ingredient
-IngredientType
-Burger
+- Bun
+- Ingredient
+- IngredientType
+- Burger
