@@ -58,7 +58,7 @@ public class BurgerParameterizedTest {
         burger = new Burger();
     }
 
-    @Parameterized.Parameters(name = "Ингредиент: {0} {1} {2}")
+    @Parameterized.Parameters(name = "Булочка: {0}, начинка: {1}, соус: {2}, итоговая стоимость = {3} ({4}х2 + {5} + {6})")
     public static Object[] getTestData() {
         return new Object[][]{
                 {"Супер булочка", "Супер начинка", "Супер соус", 700f, 100f, 200f, 300f },
